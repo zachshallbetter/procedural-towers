@@ -1,0 +1,29 @@
+{
+  "name": "procedural-nodes",
+  "version": "1.0.0",
+  "description": "Procedural node generation system with Three.js",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "simplex-noise": "^4.0.1",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.10",
+    "@types/node": "^22.10.2",
+    "@types/three": "^0.158.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vite-tsconfig-paths": "^4.2.1"
+  }
+}
